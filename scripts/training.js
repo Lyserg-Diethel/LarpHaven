@@ -1,6 +1,8 @@
 let hours, regimen, regimenRate, finalPrice;
 let calcButton = document.getElementById('calcBtn');
 let output = document.getElementById('output');
+let hourInput = document.getElementById('hourInput');
+let regimenSelect = document.getElementById('regimenSelect');
 
 function regimenCases() {
 	switch(regimen) {
@@ -14,8 +16,8 @@ function regimenCases() {
 }
 
 calcButton.onclick = function(){
-	hours = +document.getElementById('hourInput').value;
-	regimen = document.getElementById('regimenSelect').value;
+	hours = hourInput.value;
+	regimen = regimenSelect.value;
 	regimenCases();
 	if(hours/hours !== 1){
 		output.textContent = 'Please input a valid number';
