@@ -1,0 +1,50 @@
+body {font-family: monospace;}
+
+.forgingShowcase{
+	
+	height:350px;
+	width:100%;
+	background-size: contain;
+
+	text-align: center;
+	line-height: 5em;
+	font-size:40px;
+	font-style:italic;
+	color:rgb(255, 255, 200);
+	overflow: hidden;
+}
+
+.forgingShowcase img {
+	border:none;
+	pointer-events: none;
+	user-select: none;
+	width:100%;
+	margin-top: -25%;
+}
+
+.container{
+	font-size: 2em;
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+	/*align-content: space-between;*/
+	text-align: center;
+	
+}
+
+.container ul {
+	box-sizing: border-box;
+	
+	
+}
+
+.swordsUL {
+	width: 90%;
+	min-width: 150px;
+}
+
+.armorUL {
+	width: 90%;
+	min-width: 150px;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LARP Haven</title>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/training.css">
+
+
+</head>
+
+<body>
+
+	<nav class="navbar">
+		<ul>
+			<li class="singles"><a href="../index.html">Home</a></li>
+			<li class="singles"><a href="About_us.html">About Us</a></li>
+			<li class="singles"><a href="contacts.html">Contacts</a></li>
+			<li class="services">Our Services
+				<!--<ul class="optionsList">-->
+					<span class="options"><a href="forging.html">Forging</a></span>
+					<span class="options"><a href="#">Training</a></span>
+				<!--</ul>-->
+			</li>	
+		</ul>
+
+
+	</nav>
+
+	<div class="trainingShowcase">
+		<img src="../images/training.png" alt="Geralt of Rivia watching an apprentice do acrobatic stunts on high, wooden poles">
+	</div>
+
+	<p class="paragraphs">Aside from forging weapons and armor, we offer world-class, one-on-one instruction in different styles of fencing.
+	If you are more interested in classic, academic, sport-style fencing, we offer training in the epee, sabre and foil! If you would like to take it to the next level and learn the proper historic stances, maneuvres, tactics and fighting styles, we also offer instruction in weapons such as the timeless Longsword, the deadly Foil & Dagger combination, as well as Archery!<br><br>
+
+	Take a look below to calculate how much training in a certain style will cost for any amount of time (all resources and equipment covered)!
+	 </p>
+
+		<div class="calculator">
+			<select id="regimenSelect">
+				<optgroup label="Sports styles">
+					<option class="sports">Foil</option>
+					<option class="sports">Sabre</option>
+					<option class="sports">Epee</option>
+				</optgroup>
+				<optgroup label="HEMA styles">
+					<option class="hema">Longsword</option>
+					<option class="hema">Foil & Dagger</option>
+					<option class="hema">Archery</option>
+				</optgroup>
+			</select>
+
+			<input type="number" id="hourInput" placeholder="Training hours">
+			<button id="calcBtn">Calculate</button>
+			<p class="paragraphs" id='output'></p>
+		</div>
+
+<script src="../scripts/training.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.trainingShowcase {
+	height:350px;
+	width:100%;
+	background-size: contain;
+
+	text-align: center;
+	line-height: 5em;
+	font-size:40px;
+	font-style:italic;
+	color:rgb(255, 255, 200);
+	overflow: hidden;
+}
+
+.trainingShowcase img{
+	border:none;
+	pointer-events: none;
+	user-select: none;
+	width:100%;
+	margin-top: -10%;
+}
+.calculator{
+	margin:20px;
+	background: rgb(160, 160, 50);
+	border:3px double black;
+	border-radius: 10px;
+
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.calculator>input {
+	height: 1em;
+}
+
+#hourInput{
+	height:35px;
+	font-size: 18px;
+	max-height:2.7em;
+	overflow: hidden;
+
+}
+
+.calculator>button, select {
+	height: 3em;
+
+}
+p {
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+
+.indexShowcase{
+	background-image: url(../images/sunset.png);
+	height: 400px;
+	background-size: cover;
+	user-select: none;
+
+	text-align: center;
+	line-height: 5em;
+	font-size:40px;
+	font-style:italic;
+	color:rgb(255, 255, 200);
+	overflow: hidden;
+}
+
+.imgdiv{
+	margin: 0% 10%;
+	text-align:center;
+}
+
+img>a {display: flex;}

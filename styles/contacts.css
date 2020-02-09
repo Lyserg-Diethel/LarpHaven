@@ -1,0 +1,94 @@
+
+.contactsShowcase{
+	
+	width: 100%;
+	height:350px;
+	background-size: cover;
+
+	text-align: center;
+	line-height: 5em;
+	font-size:40px;
+	font-style:italic;
+	color:rgb(255, 255, 200);
+	overflow: hidden;
+}
+
+
+.blockBox1{
+	list-style: none;
+	width: 50%;
+	box-sizing: border-box;
+
+	line-height: 4em;
+	text-align: center;
+	float: left;
+	font-size:20px;
+	font-style: italic;
+	background-color: inherit;
+	transition: all 3s ease;
+	border-radius: 15px;
+}
+.blockBox1:hover {background-color: green;}
+
+.blockBox2{
+	list-style: none;
+	width: 50%;
+	box-sizing: border-box;
+
+	line-height: 4em;
+	text-align: center;
+	float: left;
+	font-size:20px;
+	font-style: italic;
+	background-color: inherit;
+	transition: all 3s ease;
+	border-radius: 15px;
+}
+
+.blockBox2:hover {background-color: green;}
+
+.glow{animation: pulse 3s infinite;}
+@keyframes pulse {
+	0% {color: red;}
+	16.6% {color: yellow;}
+	33.3% {color: green;}
+	50% {color:teal;}
+	66.6% {color:blue;}
+	83.3% {color: purple;}
+
+}
+
+.textArea{
+	height:50px;
+	min-width: 30em;
+	max-width:100%;
+}
+.textAreaDiv {
+	display: inline-flex;
+	margin-top:10px;
+}
+
+.mailInput{
+	height: 35px;
+	width: 50%;
+}
+
+.contactForm {
+	position: inherit;
+	width:80%;
+	height:200px;
+	text-align:  center;
+	margin: auto auto;
+	transition:.5s;
+}
+.Submit {
+	animation: shimmer 2s infinite ease;
+	text-align: center;
+	margin-top:10px;
+}
+@keyframes shimmer {
+	0%{font-size: 1rem;}
+	50%{font-size: 1.2rem;}
+	100%{font-size: 1rem;}
+}
+
