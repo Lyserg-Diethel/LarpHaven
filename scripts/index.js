@@ -18,7 +18,8 @@ let fillP = function() {
     indexShow.innerHTML += newPTextHolder[i];
     i+=1;
     if( i < newPTextHolder.length ){
-        setTimeout( fillP, 30 )} else{
+        setTimeout( fillP, 30 )
+    } else{
           setTimeout(emptyP, 3000);
         };
     if(i===32){
