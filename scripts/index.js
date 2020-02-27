@@ -8,7 +8,7 @@ let newPTextHolder;
 
 let i=0;
 //Function that fills the 2 paragraphs with text.
-let fillP = function() {
+let fillP = function() { 
 	if(textShowSwitch === 0){
 		newPTextHolder = newPText; 
 	}else{
