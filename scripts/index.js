@@ -1,10 +1,13 @@
 let indexShow = document.querySelector('.showcaseText');
+
 let textShowSwitch = 0;
 
 
 const newPText = "The world of reality is limited. Imagination is boundless.";
 const newPText2 = "Here is more inspirational text. I hope you like switches.";
 let newPTextHolder;
+
+
 
 let i=0;
 //Function that fills the 2 paragraphs with text.
@@ -51,4 +54,5 @@ let emptyP = function(){
 	    };
     };
 }
+
 

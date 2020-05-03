@@ -2,7 +2,7 @@
 .contactsShowcase{
 	
 	width: 100%;
-	height:350px;
+	height:50vh;
 	background-size: cover;
 
 	text-align: center;
@@ -81,6 +81,10 @@
 	margin: auto auto;
 	transition:.5s;
 }
+.contactList{
+	display: flex;
+}
+
 .Submit {
 	animation: shimmer 2s infinite ease;
 	text-align: center;
@@ -92,3 +96,31 @@
 	100%{font-size: 1rem;}
 }
 
+footer{
+	max-width: 100%;
+}
+
+fieldset{
+	max-width: 100%;
+}
+
+@media(max-width: 600px){
+	footer *{
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.textAreaDiv{/*THIS WHOLE RULE IS LIKELY USELESS.*/
+	display: inline;
+	width: 100%;
+
+	}
+	.textArea{
+	height:2em;
+	width: 20px;
+	min-width:80%;
+	}
+
+}

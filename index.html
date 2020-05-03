@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="LARP, Forging, Training">
 	<meta name="description" content="Web site for Live Action Role Play and related services">
 
@@ -17,13 +17,15 @@
 <body>
 
 	<nav class="navbar">
-		<ul>
-			<li class="singles"><a href="#">Home</a></li>
-			<li class="singles"><a href="pages/About_us.html">About Us</a></li>
-			<li class="singles"><a href="pages/contacts.html">Contacts</a></li>
+		<ul class='navbarOptions'>
+			<a href="#"><li class="singles">Home</li></a>
+			<a href="pages/About_us.html"><li class="singles">About Us</li></a>
+			<a href="pages/contacts.html"><li class="singles">Contacts</li></a>
 			<li class="services">Our Services
-					<span class="options"><a href="pages/forging.html">Forging</a></span>
-					<span class="options"><a href="pages/training.html">Training</a></span>
+				<div class='serviceOptionsContainer notDisplayed'>
+					<a href="pages/forging.html"><span class="options">Forging</span></a>
+					<a href="pages/training.html"><span class="options">Training</span></a>
+				</div>
 			</li>	
 		</ul>
 
@@ -63,10 +65,11 @@
 		<input type="email" id='mail' name="mail" placeholder="email@provider.com">
 		<input type="submit" name="submit">
 	</form>
+
+
+
 <script src="./scripts/index.js"></script>
-
-
-
+<script src="./scripts/script.js"></script>
 </body>
 
 </html>

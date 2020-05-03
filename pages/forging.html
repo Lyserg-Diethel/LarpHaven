@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	<link rel="stylesheet" type="text/css" href="../styles/forging.css">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="Timeline, LarpHaven, Team">
 	<meta name="description" content="More information about LarpHaven">
 
@@ -16,15 +16,15 @@
 <body>
 
 	<nav class="navbar">
-		<ul>
+		<ul class='navbarOptions'>
 			<li class="singles"><a href="../index.html">Home</a></li>
 			<li class="singles"><a href="About_us.html">About Us</a></li>
 			<li class="singles"><a href="contacts.html">Contacts</a></li>
 			<li class="services">Our Services
-				<!--<ul class="optionsList">-->
-					<span class="options"><a href="#">Forging</a></span>
-					<span class="options"><a href="training.html">Training</a></span>
-				<!--</ul>-->
+				<div class='serviceOptionsContainer notDisplayed'>
+					<a href="#"><span class="options">Forging</span></a>
+					<a href="training.html"><span class="options">Training</span></a>
+				</div>
 			</li>	
 		</ul>
 
@@ -75,5 +75,6 @@
 			</div>
 		</div>
 
+<script src="../scripts/script.js"></script>
 </body>
 </html>

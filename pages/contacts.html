@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	<link rel="stylesheet" type="text/css" href="../styles/contacts.css">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="LARP, Contacts, Address">
 	<meta name="description" content="Contacts for Live Action Role Play and related services">
 
@@ -15,15 +15,15 @@
 <body>
 
 	<nav class="navbar">
-		<ul>
+		<ul class='navbarOptions'>
 			<li class="singles"><a href="../index.html">Home</a></li>
 			<li class="singles"><a href="About_us.html">About Us</a></li>
 			<li class="singles"><a href="#">Contacts</a></li>
 			<li class="services">Our Services
-				<!--<ul class="optionsList">-->
-					<span class="options"><a href="forging.html">Forging</a></span>
-					<span class="options"><a href="training.html">Training</a></span>
-				<!--</ul>-->
+				<div class='serviceOptionsContainer notDisplayed'>
+					<a href="forging.html"><span class="options">Forging</span></a>
+					<a href="training.html"><span class="options">Training</span></a>
+				</div>
 			</li>	
 		</ul>
 
@@ -59,8 +59,8 @@
 					<label for="request">Get in touch for a price quote:</label>
 					<input class="mailInput" type="email" id="request" name="request" placeholder="email@somewhere.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required"><br>
 					<div class="textAreaDiv">
-					<label  class="textAreaLabel" for="textAreaID">Please let us know how we can help.</label>
-					<textarea name = "textArea" id='textAreaID' class="textArea" placeholder="Describe what you would like."></textarea>
+						<label  class="textAreaLabel" for="textAreaID">Please let us know how we can help.</label>
+						<textarea name = "textArea" id='textAreaID' class="textArea" placeholder="Describe what you'd like."></textarea>
 					</div><br>
 					<input class="Submit" type="submit" name="submit">
 
@@ -68,5 +68,6 @@
 		</form>
 	</footer>
 <script src='../scripts/clock.js'></script>
+<script src="../scripts/script.js"></script>
 </body>
 </html>
