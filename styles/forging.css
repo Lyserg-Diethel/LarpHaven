@@ -1,9 +1,12 @@
-body {font-family: monospace;}
+body {
+	font-family: monospace;
+	margin: auto auto;
+}
 
 .forgingShowcase{
 	
-	height:350px;
-	width:100%;
+	max-height:60vh;
+	min-width:100%;
 	background-size: contain;
 
 	text-align: center;
@@ -27,9 +30,12 @@ body {font-family: monospace;}
 	display: flex;
 	justify-content:space-between;
 	width: 100%;
-	/*align-content: space-between;*/
+	align-content: space-between;
 	text-align: center;
-	
+}
+.paragraphs{
+	width: 100%;
+	margin:4%;
 }
 
 .container ul {
@@ -48,3 +54,22 @@ body {font-family: monospace;}
 	min-width: 150px;
 }
 
+@media(max-width: 600px){
+	.forgingShowcase img{
+		zoom:0.4;
+		width:inherit;
+		margin-top: -13%;
+		margin-left: -70%;
+		min-height:60vh;
+		min-width:100%;
+	}
+
+	.container{
+	font-size: 5vw;
+	}
+	.container .paragraphs{
+	display: inline-block;
+	padding: 0;
+	margin: 1vw;
+	}
+}

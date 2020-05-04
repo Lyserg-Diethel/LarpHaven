@@ -1,13 +1,13 @@
 
 .indexShowcase{
 	background-image: url(../images/sunset.png);
-	height: 400px;
+	height: 60vh;
 	background-size: cover;
 	user-select: none;
 
 	text-align: center;
-	line-height: 5em;
-	font-size:40px;
+	line-height: 4em;
+	font-size:3vw;
 	font-style:italic;
 	color:rgb(255, 255, 200);
 	overflow: hidden;
@@ -15,6 +15,7 @@
 
 .imgdiv{
 	display: flex;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0% 10%;
 	text-align:center;
@@ -23,4 +24,17 @@
 img{
 	max-width: 100%;
 	max-height: 100%;
+}
+
+@media(max-width: 600px){
+	.indexShowcase {
+		line-height: 7em;
+		font-size:7vw;
+	}
+	.imgdiv{
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 0% 10%;
+	text-align:center;
+}
 }
