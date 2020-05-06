@@ -1,16 +1,19 @@
 
 .aboutUsShowcase{
 	background-image: url(../images/blacksmith.jpg);
-	height: 65vh;
+	height: 60vh;
 	background-size: cover;
-	background-repeat: no-repeat;
 	user-select: none;
 
+	max-height:60vh;
+	min-width:100%;
+
 	text-align: center;
-	line-height: 5em;
-	font-size:4vw;
+	line-height: 4em;
+	font-size:3vw;
 	font-style:italic;
 	color:rgb(255, 255, 200);
+	text-shadow: 1px 0px #000;
 	overflow: hidden;
 }
 
