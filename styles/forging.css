@@ -3,28 +3,24 @@ body {
 	margin: auto auto;
 }
 
-.forgingShowcase{
-	
+.forgingShowcase {
+	background-image: url(../images/forging.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-position: 0 60%;
+	user-select: none;
+
 	max-height:60vh;
 	min-width:100%;
-	background-size: contain;
 
 	text-align: center;
-	line-height: 5em;
-	font-size:40px;
+	line-height: 4em;
+	font-size:3vw;
 	font-style:italic;
 	color:rgb(255, 255, 200);
+	text-shadow: 1px 0px #000;
 	overflow: hidden;
 }
-
-.forgingShowcase img {
-	border:none;
-	pointer-events: none;
-	user-select: none;
-	width:100%;
-	margin-top: -25%;
-}
-
 .container{
 	font-size: 2em;
 	display: flex;
@@ -55,13 +51,13 @@ body {
 }
 
 @media(max-width: 600px){
-	.forgingShowcase img{
-		zoom:0.4;
-		width:inherit;
-		margin-top: -13%;
-		margin-left: -70%;
-		min-height:60vh;
-		min-width:100%;
+
+	.forgingShowcase {
+		color:rgb(255, 255, 200);
+		text-shadow: 1px 0px #000;
+		line-height: 350%;
+		font-size:7vw;
+		background-position: -300px 0;
 	}
 
 	.container{

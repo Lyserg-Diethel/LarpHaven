@@ -28,7 +28,8 @@ img{
 
 @media(max-width: 600px){
 	.indexShowcase {
-		line-height: 7em;
+		text-shadow: 1px 0px #000;
+		line-height: 500%;
 		font-size:7vw;
 	}
 	.imgdiv{

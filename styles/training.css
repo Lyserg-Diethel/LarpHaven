@@ -1,23 +1,21 @@
 .trainingShowcase {
+	background-image: url(../images/training.png);
+	height: 60vh;
+	background-size: cover;
+	user-select: none;
+
 	max-height:60vh;
 	min-width:100%;
-	background-size: contain;
 
 	text-align: center;
-	line-height: 5em;
-	font-size:40px;
+	line-height: 4em;
+	font-size:3vw;
 	font-style:italic;
 	color:rgb(255, 255, 200);
+	text-shadow: 1px 0px #000;
 	overflow: hidden;
 }
 
-.trainingShowcase img{
-	border:none;
-	pointer-events: none;
-	user-select: none;
-	width:100%;
-	margin-top: -10%;
-}
 .calculator{
 	margin:20px;
 	background: rgb(160, 160, 50);
@@ -49,12 +47,12 @@ p {
 }
 
 @media(max-width: 600px){
-	.trainingShowcase img{
-		zoom:0.4;
-		width:inherit;
-		margin-top: -13%;
-		margin-left: 0;
-		min-height:60vh;
-		min-width:100%;
+	.trainingShowcase{
+		color:rgb(255, 255, 200);
+		text-shadow: 1px 0px #000;
+		line-height: 350%;
+		font-size:7vw;
 	}
+
+
 }

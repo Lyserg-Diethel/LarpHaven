@@ -106,7 +106,7 @@ fieldset{
 		padding: 0;
 		margin: 0 auto;
 	}
-	.textAreaDiv{/*THIS WHOLE RULE IS LIKELY USELESS.*/
+	.textAreaDiv{
 	display: inline;
 	width: 100%;
 
