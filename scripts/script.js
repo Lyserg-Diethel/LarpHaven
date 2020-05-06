@@ -16,21 +16,23 @@ const checkWindowSize = function(){
 
 const toggleNavbarVisibility = function(e){
 	if(window.innerWidth <= 600){	
-	    if(e.target === navBar && e.currentTarget ===navBar){
+	    if(e.target === navBar){
 	        navbarOptions.classList.toggle('notDisplayed');
-	    }
-	}else{
-		navbarOptions.classList.remove('notDisplayed');
+	    }else if(e.target === services){
+				serviceOptionsContainer.classList.toggle('notDisplayed');
+		}else{
+			navbarOptions.classList.add('notDisplayed');
+		}
 	}
 }
 const toggleServiceOptsVisibility = function(){
-	if(window.innerWidth <= 600){
+	/*if(window.innerWidth <= 600){
 	    serviceOptionsContainer.classList.toggle('notDisplayed');
-	}
+	}*/
 }
 
 	checkWindowSize();
 
-navBar.addEventListener('click', toggleNavbarVisibility);
+document.body.addEventListener('click', toggleNavbarVisibility);
 services.addEventListener('click', toggleServiceOptsVisibility);
 window.addEventListener('resize', checkWindowSize);
